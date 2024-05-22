@@ -1,11 +1,10 @@
-.card {
-  padding: 20px;
-  margin: 16px;
-  background: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.social {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
 }
 
-.card-text {
-  font-size: 16px;
-  color: #666;
+.social-icon {
+  margin: 0 8px;
 }
+
