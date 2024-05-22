@@ -35,6 +35,7 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img,
@@ -42,6 +43,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+  max-width: 100%;
 }
 
 /* ====================================
