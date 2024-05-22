@@ -26,6 +26,11 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 a {
@@ -42,3 +47,15 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
